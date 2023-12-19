@@ -1,0 +1,18 @@
+{
+    "name": "Search-Master",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Extracts recent clipboard content and searches it on Google.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "clipboardRead"
+    ],
+    "icons": {
+      "96": "icon1.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "icon": "icon1.png"
+    }
+  }
